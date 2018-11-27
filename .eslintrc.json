@@ -1,0 +1,17 @@
+{
+  "extends": ["plugin:jsx-a11y/recommended", "airbnb"],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "plugins": ["jsx-a11y"],
+  "rules": {
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "react/forbid-prop-types": 0
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  }
+}

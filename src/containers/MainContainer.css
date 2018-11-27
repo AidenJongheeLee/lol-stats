@@ -1,0 +1,60 @@
+.main-container {
+  padding: 10pt;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20pt;
+}
+
+.cards-container {
+  margin-top: 50pt;
+}
+
+.loading-container {
+  text-align: center;
+  margin: 50pt 0pt;
+}
+
+.victory-text {
+  color: #2179ac;
+}
+
+.defeat-text {
+  color: #c44542;
+}
+
+.image-container {
+  margin: 0px 5px;
+}
+
+.images-wrapper {
+  margin-top: 1em;
+  display: flex;
+}
+
+.image-title {
+  color: #d18c3a;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+
+.KDA span {
+  margin:0px 5px;
+}
+
+.slef-align-center {
+  align-self: center;
+}
+
+.stats-container div {
+  margin-top: 10pt;
+}
+
+.error-container {
+  margin-top: 20pt;
+  text-align: center;
+}

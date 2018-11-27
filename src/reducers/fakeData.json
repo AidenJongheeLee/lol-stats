@@ -1,0 +1,1684 @@
+[
+    {
+        "player": {
+            "champion": {
+                "id": "Caitlyn",
+                "key": "51",
+                "name": "Caitlyn",
+                "image": {
+                    "full": "Caitlyn.png",
+                    "sprite": "champion0.png",
+                    "group": "champion",
+                    "x": 192,
+                    "y": 48,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8437,
+                "key": "GraspOfTheUndying",
+                "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
+                "name": "Grasp of the Undying",
+                "shortDesc": "Every 4s your next attack on a champion deals bonus magic damage, heals you, and permanently increases your health.",
+                "longDesc": "Every 4s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to 4% of your max health</li><li>Heals you for 2% of your max health</li><li>Permanently increase your health by 5</li><br><rules><i>Ranged Champions:</i> Damage, healing, and permanent health gained reduced by 40%.</rules><br>"
+            },
+            "secondaryRune": {
+                "id": 8000,
+                "key": "Precision",
+                "icon": "perk-images/Styles/7201_Precision.png",
+                "name": "Precision"
+            },
+            "items": {
+                "item0": {
+                    "name": "Stormrazor",
+                    "description": "<stats>+60 Attack Damage<br>+35% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> If you haven't attacked in the last 3 seconds (scaling down with your attack speed), gain <unlockedPassive>Storm's Edge</unlockedPassive>.<br><br><unlockedPassive>Storm's Edge:</unlockedPassive> Your next basic attack critically strikes for 140% (+1% per 0.5% critical strike chance, max 200%) damage and grants 20% movement speed for 0.75 seconds.",
+                    "image": {
+                        "full": "3095.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Rapid Firecannon",
+                    "description": "<stats>+30% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><passive>Passive:</passive> Moving and attacking will make an attack <a href='Energized'>Energized</a>.<br><br><unique>UNIQUE Passive - Firecannon:</unique> Your Energized attacks gain 35% bonus Range (+150 range maximum) and deal 60~140 bonus magic damage (based on level) on hit.<br><br>Attacks become Energized 25% faster. Energized attacks function on structures.",
+                    "image": {
+                        "full": "3094.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Infinity Edge",
+                    "description": "<stats>+70 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Doubles your critical strike chance.<br><unique>UNIQUE Passive:</unique> 10% of critical strike damage dealt to champions is converted to True Damage.",
+                    "image": {
+                        "full": "3031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Berserker's Greaves",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3006.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Vampiric Scepter",
+                    "description": "<stats>+15 Attack Damage<br>+10% Life Steal</stats>",
+                    "image": {
+                        "full": "1053.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 432,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "B. F. Sword",
+                    "description": "<stats>+40 Attack Damage</stats>",
+                    "image": {
+                        "full": "1038.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 9,
+            "deaths": 7,
+            "assists": 4,
+            "champLevel": 14,
+            "totalCS": 210,
+            "CSM": "6.89",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2918367148,
+            "win": false,
+            "gameCreation": "11/25/2018 20:16",
+            "gameDuration": "30m 30s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Jhin",
+                "key": "202",
+                "name": "Jhin",
+                "image": {
+                    "full": "Jhin.png",
+                    "sprite": "champion1.png",
+                    "group": "champion",
+                    "x": 240,
+                    "y": 48,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8128,
+                "key": "DarkHarvest",
+                "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+                "name": "Dark Harvest",
+                "shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
+                "longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts 20s, increased to 300s after collecting 150 soul essence.<br><br>Bonus damage: 20 - 60 (+<scaleAD>0.25 bonus AD</scaleAD>) (+<scaleAP>0.2 AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - 6 soul essence.<br>Monsters - 2 soul essence.<br>Minions - 4 soul essence.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8200,
+                "key": "Sorcery",
+                "icon": "perk-images/Styles/7202_Sorcery.png",
+                "name": "Sorcery"
+            },
+            "items": {
+                "item0": {
+                    "name": "Doran's Blade",
+                    "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
+                    "image": {
+                        "full": "1055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Boots of Speed",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed",
+                    "image": {
+                        "full": "1001.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 0,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Stormrazor",
+                    "description": "<stats>+60 Attack Damage<br>+35% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> If you haven't attacked in the last 3 seconds (scaling down with your attack speed), gain <unlockedPassive>Storm's Edge</unlockedPassive>.<br><br><unlockedPassive>Storm's Edge:</unlockedPassive> Your next basic attack critically strikes for 140% (+1% per 0.5% critical strike chance, max 200%) damage and grants 20% movement speed for 0.75 seconds.",
+                    "image": {
+                        "full": "3095.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item4": {
+                    "name": "Refillable Potion",
+                    "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 125 Health over 12 seconds. Holds up to 2 charges and refills upon visiting the shop.",
+                    "image": {
+                        "full": "2031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 192,
+                        "y": 192,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "B. F. Sword",
+                    "description": "<stats>+40 Attack Damage</stats>",
+                    "image": {
+                        "full": "1038.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Warding Totem (Trinket)",
+                    "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consume a charge to place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <scaleLevel>90 - 180</scaleLevel> seconds. <br><br>Stores one charge every <scaleLevel>240 - 120</scaleLevel> seconds, up to 2 maximum charges.<br><br>Ward duration and recharge time gradually improve with level.<br><br><rules>(Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.)</rules>",
+                    "image": {
+                        "full": "3340.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 0,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 0,
+            "deaths": 7,
+            "assists": 5,
+            "champLevel": 10,
+            "totalCS": 133,
+            "CSM": "6.56",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2918358413,
+            "win": false,
+            "gameCreation": "11/25/2018 19:44",
+            "gameDuration": "20m 16s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Yasuo",
+                "key": "157",
+                "name": "Yasuo",
+                "image": {
+                    "full": "Yasuo.png",
+                    "sprite": "champion4.png",
+                    "group": "champion",
+                    "x": 144,
+                    "y": 48,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Exhaust",
+                "description": "Exhausts target enemy champion, reducing their Movement Speed by 30%, and their damage dealt by 40% for 2.5 seconds.",
+                "image": {
+                    "full": "SummonerExhaust.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 240,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8010,
+                "key": "Conqueror",
+                "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png",
+                "name": "Conqueror",
+                "shortDesc": "After 4 seconds in combat, your first attack against an enemy champion grants you AD and converts some of your damage to true damage.",
+                "longDesc": "After 4 seconds in combat, your first attack against an enemy champion grants you 6 - 35 AD, based on level, for 3 seconds and converts 20% of your damage to champions to true damage.<br><br><rules>Melee Only: Damaging enemy champions refreshes this buff.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8400,
+                "key": "Resolve",
+                "icon": "perk-images/Styles/7204_Resolve.png",
+                "name": "Resolve"
+            },
+            "items": {
+                "item0": {
+                    "name": "Infinity Edge",
+                    "description": "<stats>+70 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Doubles your critical strike chance.<br><unique>UNIQUE Passive:</unique> 10% of critical strike damage dealt to champions is converted to True Damage.",
+                    "image": {
+                        "full": "3031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Berserker's Greaves",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3006.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Phantom Dancer",
+                    "description": "<stats>+45% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><unique>UNIQUE Passive - Spectral Waltz:</unique> While within 550 units of an enemy champion you can see, +7% Movement Speed and you can move through units.<br><unique>UNIQUE Passive - Lament:</unique> The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
+                    "image": {
+                        "full": "3046.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 0,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Sterak's Gage",
+                    "description": "<stats>+450 Health</stats><br><br><unique>UNIQUE Passive - Giant Strength:</unique> Gain 50% of your Base Attack Damage as Bonus Attack Damage <br><unique>UNIQUE Passive - Lifeline:</unique> Upon taking at least 400 to 1800 damage (based on level) within 5 seconds, gain a shield for 75% of your bonus Health. After 0.75 seconds, the shield decays over 3 seconds (60 second cooldown).<br><br><unlockedPassive>Sterak's Fury:</unlockedPassive> When <i>Lifeline</i> triggers, grow in size and strength, gaining +30% Tenacity for 8 seconds.",
+                    "image": {
+                        "full": "3053.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Doran's Blade",
+                    "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
+                    "image": {
+                        "full": "1055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "Control Ward",
+                    "description": "<groupLimit>Can only carry 3 Control Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a ward that grants vision of the surrounding area. This device will also reveal invisible traps and reveal / disable wards. Control Wards do not disable other Control Wards. Camouflaged units will also be revealed. <br><br>Limit 1 <font color='#BBFFFF'>Control Ward</font> on the map per player.",
+                    "image": {
+                        "full": "2055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 240,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 11,
+            "deaths": 1,
+            "assists": 5,
+            "champLevel": 14,
+            "totalCS": 164,
+            "CSM": "7.09",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917839807,
+            "win": true,
+            "gameCreation": "11/24/2018 23:18",
+            "gameDuration": "23m 8s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Lucian",
+                "key": "236",
+                "name": "Lucian",
+                "image": {
+                    "full": "Lucian.png",
+                    "sprite": "champion2.png",
+                    "group": "champion",
+                    "x": 192,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8005,
+                "key": "PressTheAttack",
+                "icon": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
+                "name": "Press the Attack",
+                "shortDesc": "Hitting an enemy champion 3 consecutive times makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for 6s.",
+                "longDesc": "Hitting an enemy champion with 3 consecutive basic attacks deals 40 - 180 bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by 8 - 12% from all sources for 6s."
+            },
+            "secondaryRune": {
+                "id": 8200,
+                "key": "Sorcery",
+                "icon": "perk-images/Styles/7202_Sorcery.png",
+                "name": "Sorcery"
+            },
+            "items": {
+                "item0": {
+                    "name": "Blade of the Ruined King",
+                    "description": "<stats>+40 Attack Damage<br>+25% Attack Speed<br>+12% Life Steal</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 8% of the target's current Health as bonus physical damage on hit.<br><active>UNIQUE Active:</active> Deals 100 magic damage to target champion and steals 25% of their Movement Speed for 3 seconds (90 second cooldown).<br><br><rules>Minimum bonus physical damage dealt is 15.<br>Maximum bonus physical damage dealt to monsters and minions is 60.<br>User's Life Steal is applied to bonus physical damage dealt.</rules>",
+                    "image": {
+                        "full": "3153.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 288,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Doran's Blade",
+                    "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
+                    "image": {
+                        "full": "1055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Ninja Tabi",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats>+20 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 12% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3047.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "B. F. Sword",
+                    "description": "<stats>+40 Attack Damage</stats>",
+                    "image": {
+                        "full": "1038.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "The Black Cleaver",
+                    "description": "<stats>+400 Health<br>+40 Attack Damage<br>+20% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 4% for 6 seconds (stacks up to 6 times, up to 24%).<br><unique>UNIQUE Passive - Rage:</unique> Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.",
+                    "image": {
+                        "full": "3071.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "Control Ward",
+                    "description": "<groupLimit>Can only carry 3 Control Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a ward that grants vision of the surrounding area. This device will also reveal invisible traps and reveal / disable wards. Control Wards do not disable other Control Wards. Camouflaged units will also be revealed. <br><br>Limit 1 <font color='#BBFFFF'>Control Ward</font> on the map per player.",
+                    "image": {
+                        "full": "2055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 240,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 6,
+            "deaths": 1,
+            "assists": 6,
+            "champLevel": 13,
+            "totalCS": 180,
+            "CSM": "7.94",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917802683,
+            "win": true,
+            "gameCreation": "11/24/2018 22:42",
+            "gameDuration": "22m 40s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Karthus",
+                "key": "30",
+                "name": "Karthus",
+                "image": {
+                    "full": "Karthus.png",
+                    "sprite": "champion1.png",
+                    "group": "champion",
+                    "x": 0,
+                    "y": 96,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Exhaust",
+                "description": "Exhausts target enemy champion, reducing their Movement Speed by 30%, and their damage dealt by 40% for 2.5 seconds.",
+                "image": {
+                    "full": "SummonerExhaust.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 240,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8128,
+                "key": "DarkHarvest",
+                "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+                "name": "Dark Harvest",
+                "shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
+                "longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts 20s, increased to 300s after collecting 150 soul essence.<br><br>Bonus damage: 20 - 60 (+<scaleAD>0.25 bonus AD</scaleAD>) (+<scaleAP>0.2 AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - 6 soul essence.<br>Monsters - 2 soul essence.<br>Minions - 4 soul essence.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8000,
+                "key": "Precision",
+                "icon": "perk-images/Styles/7201_Precision.png",
+                "name": "Precision"
+            },
+            "items": {
+                "item0": {
+                    "name": "Doran's Ring",
+                    "description": "<stats>+60 Health<br>+15 Ability Power<br><mana>+5 Mana per 5 seconds</mana></stats><br><br><passive>Passive: </passive>Basic attacks deal an additional 5 physical damage to minions on hit.",
+                    "image": {
+                        "full": "1056.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Luden's Echo",
+                    "description": "<stats>+90 Ability Power<br><mana>+600 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><unique>UNIQUE Passive - Echo:</unique> Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 100 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.",
+                    "image": {
+                        "full": "3285.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Void Staff",
+                    "description": "<stats>+70 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> +40% <a href='TotalMagicPen'>Magic Penetration</a>.",
+                    "image": {
+                        "full": "3135.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 288,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Sorcerer's Shoes",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats>+18 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3020.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 384,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Morellonomicon",
+                    "description": "<stats>+80 Ability Power<br>+300 Health</stats><br><br><unique>UNIQUE Passive - Touch of Death:</unique> +15 <a href='FlatMagicPen'>Magic Penetration</a><br><unique>UNIQUE Passive - Cursed Strike:</unique> Magic damage dealt to champions inflicts them with <a href='GrievousWounds'>Grievous Wounds</a> for 3 seconds.",
+                    "image": {
+                        "full": "3165.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 384,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "Control Ward",
+                    "description": "<groupLimit>Can only carry 3 Control Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Places a ward that grants vision of the surrounding area. This device will also reveal invisible traps and reveal / disable wards. Control Wards do not disable other Control Wards. Camouflaged units will also be revealed. <br><br>Limit 1 <font color='#BBFFFF'>Control Ward</font> on the map per player.",
+                    "image": {
+                        "full": "2055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 240,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 3,
+            "deaths": 9,
+            "assists": 8,
+            "champLevel": 15,
+            "totalCS": 203,
+            "CSM": "7.07",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917782649,
+            "win": false,
+            "gameCreation": "11/24/2018 22:00",
+            "gameDuration": "28m 43s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Yasuo",
+                "key": "157",
+                "name": "Yasuo",
+                "image": {
+                    "full": "Yasuo.png",
+                    "sprite": "champion4.png",
+                    "group": "champion",
+                    "x": 144,
+                    "y": 48,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Exhaust",
+                "description": "Exhausts target enemy champion, reducing their Movement Speed by 30%, and their damage dealt by 40% for 2.5 seconds.",
+                "image": {
+                    "full": "SummonerExhaust.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 240,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8010,
+                "key": "Conqueror",
+                "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png",
+                "name": "Conqueror",
+                "shortDesc": "After 4 seconds in combat, your first attack against an enemy champion grants you AD and converts some of your damage to true damage.",
+                "longDesc": "After 4 seconds in combat, your first attack against an enemy champion grants you 6 - 35 AD, based on level, for 3 seconds and converts 20% of your damage to champions to true damage.<br><br><rules>Melee Only: Damaging enemy champions refreshes this buff.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8400,
+                "key": "Resolve",
+                "icon": "perk-images/Styles/7204_Resolve.png",
+                "name": "Resolve"
+            },
+            "items": {
+                "item0": {
+                    "name": "Doran's Blade",
+                    "description": "<stats>+8 Attack Damage<br>+80 Health<br>+3% Life Steal</stats>",
+                    "image": {
+                        "full": "1055.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Berserker's Greaves",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3006.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Phantom Dancer",
+                    "description": "<stats>+45% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><unique>UNIQUE Passive - Spectral Waltz:</unique> While within 550 units of an enemy champion you can see, +7% Movement Speed and you can move through units.<br><unique>UNIQUE Passive - Lament:</unique> The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
+                    "image": {
+                        "full": "3046.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 0,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Infinity Edge",
+                    "description": "<stats>+70 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Doubles your critical strike chance.<br><unique>UNIQUE Passive:</unique> 10% of critical strike damage dealt to champions is converted to True Damage.",
+                    "image": {
+                        "full": "3031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Sterak's Gage",
+                    "description": "<stats>+450 Health</stats><br><br><unique>UNIQUE Passive - Giant Strength:</unique> Gain 50% of your Base Attack Damage as Bonus Attack Damage <br><unique>UNIQUE Passive - Lifeline:</unique> Upon taking at least 400 to 1800 damage (based on level) within 5 seconds, gain a shield for 75% of your bonus Health. After 0.75 seconds, the shield decays over 3 seconds (60 second cooldown).<br><br><unlockedPassive>Sterak's Fury:</unlockedPassive> When <i>Lifeline</i> triggers, grow in size and strength, gaining +30% Tenacity for 8 seconds.",
+                    "image": {
+                        "full": "3053.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "B. F. Sword",
+                    "description": "<stats>+40 Attack Damage</stats>",
+                    "image": {
+                        "full": "1038.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 12,
+            "deaths": 6,
+            "assists": 7,
+            "champLevel": 14,
+            "totalCS": 229,
+            "CSM": "8.34",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917730306,
+            "win": true,
+            "gameCreation": "11/24/2018 21:11",
+            "gameDuration": "27m 28s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Karthus",
+                "key": "30",
+                "name": "Karthus",
+                "image": {
+                    "full": "Karthus.png",
+                    "sprite": "champion1.png",
+                    "group": "champion",
+                    "x": 0,
+                    "y": 96,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Exhaust",
+                "description": "Exhausts target enemy champion, reducing their Movement Speed by 30%, and their damage dealt by 40% for 2.5 seconds.",
+                "image": {
+                    "full": "SummonerExhaust.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 240,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8128,
+                "key": "DarkHarvest",
+                "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+                "name": "Dark Harvest",
+                "shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
+                "longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts 20s, increased to 300s after collecting 150 soul essence.<br><br>Bonus damage: 20 - 60 (+<scaleAD>0.25 bonus AD</scaleAD>) (+<scaleAP>0.2 AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - 6 soul essence.<br>Monsters - 2 soul essence.<br>Minions - 4 soul essence.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8000,
+                "key": "Precision",
+                "icon": "perk-images/Styles/7201_Precision.png",
+                "name": "Precision"
+            },
+            "items": {
+                "item0": {
+                    "name": "Broken Stopwatch",
+                    "description": "<unique>UNIQUE Passive:</unique> Is broken, but can still be upgraded.<br><br><rules>After breaking one Stopwatch, the shopkeeper will only sell you Broken Stopwatches.</rules>",
+                    "image": {
+                        "full": "2421.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 432,
+                        "y": 288,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Morellonomicon",
+                    "description": "<stats>+80 Ability Power<br>+300 Health</stats><br><br><unique>UNIQUE Passive - Touch of Death:</unique> +15 <a href='FlatMagicPen'>Magic Penetration</a><br><unique>UNIQUE Passive - Cursed Strike:</unique> Magic damage dealt to champions inflicts them with <a href='GrievousWounds'>Grievous Wounds</a> for 3 seconds.",
+                    "image": {
+                        "full": "3165.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 384,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Sorcerer's Shoes",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats>+18 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3020.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 384,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Void Staff",
+                    "description": "<stats>+70 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> +40% <a href='TotalMagicPen'>Magic Penetration</a>.",
+                    "image": {
+                        "full": "3135.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 288,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Luden's Echo",
+                    "description": "<stats>+90 Ability Power<br><mana>+600 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><unique>UNIQUE Passive - Echo:</unique> Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 100 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.",
+                    "image": {
+                        "full": "3285.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "Seeker's Armguard",
+                    "description": "<stats>+30 Armor<br>+20 Ability Power</stats><br><br><unique>UNIQUE Passive:</unique> Killing a unit grants 0.5 bonus Armor and Ability Power. This bonus stacks up to 30 times.",
+                    "image": {
+                        "full": "3191.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 11,
+            "deaths": 7,
+            "assists": 5,
+            "champLevel": 15,
+            "totalCS": 173,
+            "CSM": "5.69",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917697712,
+            "win": false,
+            "gameCreation": "11/24/2018 20:27",
+            "gameDuration": "30m 25s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Varus",
+                "key": "110",
+                "name": "Varus",
+                "image": {
+                    "full": "Varus.png",
+                    "sprite": "champion4.png",
+                    "group": "champion",
+                    "x": 48,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8128,
+                "key": "DarkHarvest",
+                "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+                "name": "Dark Harvest",
+                "shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
+                "longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts 20s, increased to 300s after collecting 150 soul essence.<br><br>Bonus damage: 20 - 60 (+<scaleAD>0.25 bonus AD</scaleAD>) (+<scaleAP>0.2 AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - 6 soul essence.<br>Monsters - 2 soul essence.<br>Minions - 4 soul essence.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8200,
+                "key": "Sorcery",
+                "icon": "perk-images/Styles/7202_Sorcery.png",
+                "name": "Sorcery"
+            },
+            "items": {
+                "item0": {
+                    "name": "Corrupting Potion",
+                    "description": "<groupLimit>Limited to 1 type of Healing Potion.</groupLimit><br><br><active>UNIQUE Active:</active> Consumes a charge to restore 125 Health and 75 Mana over 12 seconds and grants <font color='#FF8811'><u>Touch of Corruption</u></font> during that time. Holds up to 3 charges that refills upon visiting the shop.<br><br><font color='#FF8811'><u>Touch of Corruption:</u></font> Damaging spells and attacks burn enemy champions for <scaleLevel>15 - 30</scaleLevel> magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.)<br><br><rules>(Corrupting Potion can be used even at full Health and Mana.)</rules>",
+                    "image": {
+                        "full": "2033.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 288,
+                        "y": 192,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Youmuu's Ghostblade",
+                    "description": "<stats>+55 Attack Damage<br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> +18 <a href='Lethality'>Lethality</a><br><unique>UNIQUE Passive:</unique> +40 Movement Speed out of Combat<br><active>UNIQUE Active:</active> Grants +20% Movement Speed for 6 seconds (45 second cooldown).",
+                    "image": {
+                        "full": "3142.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 288,
+                        "y": 288,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Duskblade of Draktharr",
+                    "description": "<stats>+55 Attack Damage<br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> +21 <a href='Lethality'>Lethality</a><br><unique>UNIQUE Passive - Blackout:</unique> When spotted by an enemy ward, reveal traps and disable wards around you for 8 seconds. Melee attacks instantly kill these devices. (90 second cooldown).<br><unique>UNIQUE Passive - Nightstalker:</unique> After being unseen for at least 1 second, your next basic attack against an enemy champion deals <scaleLevel>30 - 150</scaleLevel> bonus physical damage and slows them by 99% for 0.25 seconds. Ranged basic attacks do not apply the slow. (Lasts for 5 seconds after being seen by an enemy champion).",
+                    "image": {
+                        "full": "3147.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Last Whisper",
+                    "description": "<stats>+10 Attack Damage</stats><br><br><unique>UNIQUE Passive - Last Whisper:</unique> +10% <a href='FlatArmorPen'>Armor Penetration</a>",
+                    "image": {
+                        "full": "3035.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Ionian Boots of Lucidity",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><unique>UNIQUE Passive:</unique> Reduces Summoner Spell cooldowns by 10%<br><br><br><rules><font color='#FDD017'>''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''</font></rules>",
+                    "image": {
+                        "full": "3158.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 384,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 3,
+            "deaths": 8,
+            "assists": 5,
+            "champLevel": 13,
+            "totalCS": 169,
+            "CSM": "6.06",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917668025,
+            "win": false,
+            "gameCreation": "11/24/2018 19:52",
+            "gameDuration": "27m 52s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Sivir",
+                "key": "15",
+                "name": "Sivir",
+                "image": {
+                    "full": "Sivir.png",
+                    "sprite": "champion3.png",
+                    "group": "champion",
+                    "x": 96,
+                    "y": 48,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8021,
+                "key": "FleetFootwork",
+                "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
+                "name": "Fleet Footwork",
+                "shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>.",
+                "longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for 3 - 60 (+0.3 Bonus AD, +0.5 AP) and grant +20% movement speed for 1s.<br><rules>Ranged Champions: Healing from minions is 20% effective.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8200,
+                "key": "Sorcery",
+                "icon": "perk-images/Styles/7202_Sorcery.png",
+                "name": "Sorcery"
+            },
+            "items": {
+                "item0": {
+                    "name": "Infinity Edge",
+                    "description": "<stats>+70 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Doubles your critical strike chance.<br><unique>UNIQUE Passive:</unique> 10% of critical strike damage dealt to champions is converted to True Damage.",
+                    "image": {
+                        "full": "3031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Stormrazor",
+                    "description": "<stats>+60 Attack Damage<br>+35% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> If you haven't attacked in the last 3 seconds (scaling down with your attack speed), gain <unlockedPassive>Storm's Edge</unlockedPassive>.<br><br><unlockedPassive>Storm's Edge:</unlockedPassive> Your next basic attack critically strikes for 140% (+1% per 0.5% critical strike chance, max 200%) damage and grants 20% movement speed for 0.75 seconds.",
+                    "image": {
+                        "full": "3095.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 144,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Ninja Tabi",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats>+20 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 12% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3047.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Vampiric Scepter",
+                    "description": "<stats>+15 Attack Damage<br>+10% Life Steal</stats>",
+                    "image": {
+                        "full": "1053.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 432,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Phantom Dancer",
+                    "description": "<stats>+45% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><unique>UNIQUE Passive - Spectral Waltz:</unique> While within 550 units of an enemy champion you can see, +7% Movement Speed and you can move through units.<br><unique>UNIQUE Passive - Lament:</unique> The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
+                    "image": {
+                        "full": "3046.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 0,
+                        "y": 0,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "B. F. Sword",
+                    "description": "<stats>+40 Attack Damage</stats>",
+                    "image": {
+                        "full": "1038.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 8,
+            "deaths": 3,
+            "assists": 11,
+            "champLevel": 15,
+            "totalCS": 222,
+            "CSM": "8.71",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2917625456,
+            "win": true,
+            "gameCreation": "11/24/2018 19:03",
+            "gameDuration": "25m 30s"
+        }
+    },
+    {
+        "player": {
+            "champion": {
+                "id": "Draven",
+                "key": "119",
+                "name": "Draven",
+                "image": {
+                    "full": "Draven.png",
+                    "sprite": "champion0.png",
+                    "group": "champion",
+                    "x": 48,
+                    "y": 96,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell1": {
+                "name": "Flash",
+                "description": "Teleports your champion a short distance toward your cursor's location.",
+                "image": {
+                    "full": "SummonerFlash.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 288,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "spell2": {
+                "name": "Heal",
+                "description": "Restores 90-345 Health (depending on champion level) and grants 30% Movement Speed for 1 second to you and target allied champion. This healing is halved for units recently affected by Summoner Heal.",
+                "image": {
+                    "full": "SummonerHeal.png",
+                    "sprite": "spell0.png",
+                    "group": "spell",
+                    "x": 384,
+                    "y": 0,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "primaryRune": {
+                "id": 8128,
+                "key": "DarkHarvest",
+                "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+                "name": "Dark Harvest",
+                "shortDesc": "Champions, large minions, and large monsters drop soul essence on death. Touch souls to absorb them and deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> on your next attack based on total soul essence collected.",
+                "longDesc": "Champions, large minions, and large monsters drop soul essence on death. Collect souls to become <font color='#c60300'>Soul Charged</font>. Your next attack on a champion or structure consumes <font color='#c60300'>Soul Charged</font> to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br><font color='#c60300'>Soul Charged</font> lasts 20s, increased to 300s after collecting 150 soul essence.<br><br>Bonus damage: 20 - 60 (+<scaleAD>0.25 bonus AD</scaleAD>) (+<scaleAP>0.2 AP</scaleAP>) + soul essence collected.<br><rules><br>Champions - 6 soul essence.<br>Monsters - 2 soul essence.<br>Minions - 4 soul essence.</rules>"
+            },
+            "secondaryRune": {
+                "id": 8200,
+                "key": "Sorcery",
+                "icon": "perk-images/Styles/7202_Sorcery.png",
+                "name": "Sorcery"
+            },
+            "items": {
+                "item0": {
+                    "name": "Vampiric Scepter",
+                    "description": "<stats>+15 Attack Damage<br>+10% Life Steal</stats>",
+                    "image": {
+                        "full": "1053.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 432,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item0"
+                },
+                "item1": {
+                    "name": "Quicksilver Sash",
+                    "description": "<stats>+30 Magic Resist</stats><br><br><active>UNIQUE Active - Quicksilver:</active> Removes all crowd control debuffs (90 second cooldown).",
+                    "image": {
+                        "full": "3140.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 288,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item1"
+                },
+                "item2": {
+                    "name": "Berserker's Greaves",
+                    "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+                    "image": {
+                        "full": "3006.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 336,
+                        "y": 336,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item2"
+                },
+                "item3": {
+                    "name": "Rapid Firecannon",
+                    "description": "<stats>+30% Attack Speed<br>+30% Critical Strike Chance<br>+5% Movement Speed</stats><br><br><passive>Passive:</passive> Moving and attacking will make an attack <a href='Energized'>Energized</a>.<br><br><unique>UNIQUE Passive - Firecannon:</unique> Your Energized attacks gain 35% bonus Range (+150 range maximum) and deal 60~140 bonus magic damage (based on level) on hit.<br><br>Attacks become Energized 25% faster. Energized attacks function on structures.",
+                    "image": {
+                        "full": "3094.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 96,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item3"
+                },
+                "item4": {
+                    "name": "Infinity Edge",
+                    "description": "<stats>+70 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> Doubles your critical strike chance.<br><unique>UNIQUE Passive:</unique> 10% of critical strike damage dealt to champions is converted to True Damage.",
+                    "image": {
+                        "full": "3031.png",
+                        "sprite": "item0.png",
+                        "group": "item",
+                        "x": 48,
+                        "y": 432,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item4"
+                },
+                "item5": {
+                    "name": "The Bloodthirster",
+                    "description": "<stats>+80 Attack Damage</stats><br><br><unique>UNIQUE Passive:</unique> +20% Life Steal<br><unique>UNIQUE Passive:</unique> Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level.<br><br>This shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
+                    "image": {
+                        "full": "3072.png",
+                        "sprite": "item1.png",
+                        "group": "item",
+                        "x": 192,
+                        "y": 48,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item5"
+                },
+                "item6": {
+                    "name": "Farsight Alteration",
+                    "description": "<levelLimit>Level 9+ required to upgrade.</levelLimit><br><groupLimit>Limited to 1 Trinket.</groupLimit><br><br>Alters the <font color='#FFFFFF'>Warding Totem</font> Trinket:<br><br><stats><font color='#00FF00'>+</font> Massively increased cast range (+650%)<br><font color='#00FF00'>+</font> Infinite duration and does not count towards ward limit<br><font color='#FF0000'>-</font> <font color='#FF6600'>10% increased cooldown</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Ward is visible, fragile, untargetable by allies</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>45% reduced ward vision radius</font><br><font color='#FF0000'>-</font> <font color='#FF6600'>Cannot store charges</font></stats>",
+                    "image": {
+                        "full": "3363.png",
+                        "sprite": "item2.png",
+                        "group": "item",
+                        "x": 240,
+                        "y": 96,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "location": "item6"
+                }
+            },
+            "kills": 4,
+            "deaths": 5,
+            "assists": 13,
+            "champLevel": 17,
+            "totalCS": 206,
+            "CSM": "6.25",
+            "summonerName": "C9 Sneaky"
+        },
+        "game": {
+            "id": 2916907842,
+            "win": true,
+            "gameCreation": "11/24/2018 0:19",
+            "gameDuration": "32m 59s"
+        }
+    }
+]
